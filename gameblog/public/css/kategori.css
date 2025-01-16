@@ -1,0 +1,30 @@
+.yazi {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 50px;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.yazi-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+.yazi-info h1 {
+    font-size: 50px;
+    align-self: center; 
+    align-items: center;
+    color: #ff9800;
+    margin-right: 20%; 
+    margin-left: 120px;
+}
+
+.yazi-info p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 20px;
+    flex: 1;
+}

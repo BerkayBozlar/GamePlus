@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+}
+.developer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2b2b3c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.developer h1 {
+    font-size: 2.5rem;
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+.developer-image img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    background-color: #242436;
+}
+
+.developer-about {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.developer-about h2 {
+    font-size: 1.8rem;
+    color: #ff9800;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.developer-about p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.developer-games {
+    text-align: left;
+}
+.developer-games h2 {
+    font-size: 1.8rem;
+    color: #ff9800;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.developer-games ul {
+    list-style-type: none;
+    padding: 0;
+}
+.developer-games li {
+    margin-bottom: 10px;
+}
+.developer-games a {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.developer-games a:hover {
+    color: #66d9ff;
+}

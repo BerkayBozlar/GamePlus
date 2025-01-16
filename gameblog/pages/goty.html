@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GOTY</title>
+</head>
+<body>
+
+    <div class="topbar">
+        <div class="wrapper">
+            <div class="left">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <div class="center">
+                <a href="../index.html">ANA SAYFA</a>
+                <a href="../pages/oyunlar.html">OYUNLAR</a>
+                <a href="../pages/goty.html">GOTY</a>
+                <a href="../pages/login.html">GİRİŞ</a>
+            </div>
+            <div class="right">
+                <span>
+                    <img src="../public/img/user/kedi pp.jpg" alt="user">
+                </span>
+                <div class="searchEngine" id="searchEngine">
+                    <input type="text" placeholder="Arama yapiniz..">
+                    <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <div class="game-content">
+        <div class="game-info">
+            <h1>Baldur's Gate 3</h1>
+            <p><strong>Game of the Year 2023</strong></p>
+            <p>Baldur's Gate 3, Larian Studios tarafından geliştirilen ve 2023 yılında "Game of the Year" ödülünü kazanan bir aksiyon rol yapma oyunudur. Oyun, zengin hikayesi, derinlemesine karakter gelişimi, ve etkileyici dünya tasarımı ile dikkat çekmektedir.</p>
+            <p>Bir grup maceracı olarak Baldur's Gate'te başlayan bir serüvene adım atın, güçlü kararlar verin, çok sayıda düşmanla mücadele edin ve seçimlerinizin dünyayı nasıl değiştirdiğini keşfedin.</p>
+            <br><p>Geliştirici:<a href="../pages/gelistirici/LarianStd.html" class="orange-link"> Larian Studios</a></p>
+        </div>
+        
+        <div class="game-image">
+            <img src="../public/img/kapakfoto/baldurs gate 3.avif" alt="Baldur's Gate 3" class="game-image">
+        </div>
+    </div>
+
+
+    <div class="goty">
+        <h2>2024 Game of the Year (GOTY) Adayları</h2>
+        <form id="goty-form">
+            <div class="game-selection">
+                <label> 
+                    <input type="radio" name="goty" value="Game1" required> Oyun 1: Astro Bot
+                </label>
+            </div>
+            <div class="game-selection">
+                <label>
+                    <input type="radio" name="goty" value="Game2" required> Oyun 2: Balatro
+                </label>
+            </div>
+            <div class="game-selection">
+                <label>
+                    <input type="radio" name="goty" value="Game3" required> Oyun 3: Black Myth: Wukong
+                </label>
+            </div>
+            <div class="game-selection">
+                <label>
+                    <input type="radio" name="goty" value="Game4" required> Oyun 4: Elden Ring: Shadow of the Erdtree
+                </label>
+            </div>
+            <div class="game-selection">
+                <label>
+                    <input type="radio" name="goty" value="Game5" required> Oyun 5: Final Fantasy VII Rebirth
+                </label>
+            </div>
+            <div class="game-selection">
+                <label>
+                    <input type="radio" name="goty" value="Game6" required> Oyun 6: Metaphor Refantazio
+                </label>
+            </div>
+
+            <button type="submit" id="submit-btn">Gönder</button>
+            <div class="thank-you-message">Tebrikler! Oyun seçiminiz kaydedildi. Göndere basınız. </div>
+        </form>
+    </div>
+
+
+    <script src="../public/javas/search.js"></script>
+</body>
+</html>
