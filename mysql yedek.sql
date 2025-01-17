@@ -1,9 +1,0 @@
-CREATE DATABASE GamePlus;
-USE GamePlus;
-
-CREATE TABLE comments (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(30),
-    comment TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
